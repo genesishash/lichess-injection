@@ -1,0 +1,14 @@
+{
+  "name": "lichess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "iced -c payload.iced && parcel build payload.js && rm payload.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "taky-cache-loop": "^0.0.2"
+  }
+}
